@@ -1,0 +1,19 @@
+# Site settings
+title: Netlify Playground
+email: carles@adabits.org
+description: |
+  Playground repo to explore Netlify features.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://play-netlify.netlify.com" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Build settings
+markdown: kramdown
+theme: minima
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+include:
+  - _redirects

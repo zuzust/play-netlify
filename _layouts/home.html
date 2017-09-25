@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  <h1 class="page-heading">Books</h1>
+
+  {{ content }}
+
+  <ul class="post-list">
+    {% for book in site.data.books %}
+      <li>
+        <h2>
+          <a class="post-link" href="{{ book.path }}">{{ book.title | escape }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+</div>
