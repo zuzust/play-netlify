@@ -1,1 +1,1 @@
-/play-gitbook http://play-gitbook.netlify.com 200
+/play-gitbook/:lang http://play-gitbook.netlify.com/:lang 200

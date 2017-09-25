@@ -12,7 +12,10 @@ layout: default
     {% for book in site.data.books %}
       <li>
         <h2>
-          <a class="post-link" href="{{ book.path }}">{{ book.title | escape }}</a>
+          {{ book.title | escape }}
+          {% for lang in book.langs %}
+          <a class="post-link block" href="{{ book.path }}/{{ lang }}">{{ lang }}</a>
+          {% endfor %}
         </h2>
       </li>
     {% endfor %}
