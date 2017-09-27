@@ -1,3 +1,9 @@
 - title: play-gitbook
   path: /play-gitbook
   langs: ["ca", "es"]
+  url: "http://play-gitbook.netlify.com"
+
+- title: play-mkdocs
+  path: /play-mkdocs
+  langs: ["ca", "es"]
+  url: "http://flatlang--play-mkdocs.netlify.com"

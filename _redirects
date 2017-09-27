@@ -1,1 +1,5 @@
-/play-gitbook/:lang http://play-gitbook.netlify.com/:lang 200
+---
+---
+{% for book in site.data.books %}
+{{book.path}}/* {{book.url}}{{book.path}}/:splat 200
+{% endfor %}
